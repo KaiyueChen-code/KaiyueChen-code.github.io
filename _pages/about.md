@@ -12,7 +12,11 @@ redirect_from:
 
 # 👋 About Me
 
-Hi👋！ I am **Kaiyue Chen**, an undergraduate student in **Mechatronics and Robotic Systems** at [**Xi'an Jiaotong-Liverpool University**](https://www.xjtlu.edu.cn/en) (**XJTLU**), Suzhou, China. My research centers on **Vision-Language-Action (VLA)** for embodied manipulation: at **XJTLU** (with [**Prof. Yaran Chen**](https://scholar.xjtlu.edu.cn/en/persons/YaranChen/)), I work on a hierarchical **Brain–Cerebellum–Supervisor** stack with LLM quadruplets and **RFT** for long-horizon and interruptible tasks; at **Tsinghua University** (with [**Prof. Rui Chen**](https://callmeray.github.io/homepage/)), I contribute to **ViTaMIn-B**, a bimanual visuo-tactile demonstration interface (**DuoTact**, **Meta Quest 3** tracking), and to integrating tactile sensing into **VLA (pi0.5)** for multimodal policy learning. I am also interested in **deep reinforcement learning** and **LLM fine-tuning**. 
+Hi👋！ I am **Kaiyue Chen**, an undergraduate student in **Mechatronics and Robotic Systems** at [**Xi'an Jiaotong-Liverpool University**](https://www.xjtlu.edu.cn/en) (**XJTLU**), Suzhou, China. My research focuses on **Vision-Language-Action (VLA)** and embodied manipulation.
+
+At **XJTLU**, I work with [**Prof. Yaran Chen**](https://scholar.xjtlu.edu.cn/en/persons/YaranChen/) on a hierarchical **Brain–Cerebellum–Supervisor** framework. The brain outputs LLM **quadruplets** as a VLA-facing interface and is trained with **RFT** (beyond **SFT**) to support long-horizon and interruptible tasks.
+
+At **Tsinghua University**, I collaborate with [**Prof. Rui Chen**](https://callmeray.github.io/homepage/) on **ViTaMIn-B**, a bimanual visuo-tactile data-collection system with **DuoTact** sensors and **Meta Quest 3** tracking, and on integrating tactile sensing into **VLA (pi0.5)** for multimodal policies. I am also interested in **deep reinforcement learning** and **LLM fine-tuning**.
 
 # 🔥 News
 - *2025.08*: &nbsp;🏆 **National Finals**, *The 27th China Robot and Artificial Intelligence Competition* — **Baidu Service Robot** track, coached by Prof. Eng Gee Lim (**IEEE Fellow**).
