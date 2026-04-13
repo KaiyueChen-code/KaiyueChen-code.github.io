@@ -1,23 +1,33 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+# Google Scholar often blocks or throttles GitHub Actions runners; the crawler may hang or fail.
+# This job has a timeout so runs do not stay "In progress" forever.
+
+on:
+  workflow_dispatch:
+  page_build:
+  schedule:
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Install Reqs
       run: |
-        sudo apt-get install python3-setuptools
+        sudo apt-get update
+        sudo apt-get install -y python3-setuptools python3-pip
     - name: Run
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
-        python3 main.py
+        # Hard cap so scholarly retries cannot hang the runner indefinitely
+        timeout 600 python3 main.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
