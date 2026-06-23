@@ -45,6 +45,21 @@ At **Tsinghua University**, I collaborate with [**Prof. Rui Chen**](https://call
 - *2025.03 - 2026.03*, **Research Assistant**, *Task Assignment and Navigation of AGV Clusters*, Xi’an Jiaotong-Liverpool University (Advisor: [**Prof. Xinheng Wang**](https://scholar.google.com/citations?user=TeoBMbgAAAAJ&hl=en&oi=ao)).
   - Contributed to chassis design (**SolidWorks**), **ROS2** + reinforcement learning integration, and **Gazebo**-based SLAM/navigation experiments.
 
+<span class='anchor' id='-internships'></span>
+
+# 💼 Internships
+
+<div class="project-list">
+  <div class="project-card project-card--logo">
+    <img src="/assets/images/internships/sudo-ai.png" alt="Sudo AI logo">
+    <div>
+      <h3>Sudo AI</h3>
+      <div class="project-meta">2026.03 - Present · Intern</div>
+      <span class="project-tag">AI</span> <span class="project-tag">VLA</span> <span class="project-tag">Tactile</span>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='projects'></span>
 
 # 🧩 Projects
@@ -68,6 +83,21 @@ At **Tsinghua University**, I collaborate with [**Prof. Rui Chen**](https://call
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.project-card--logo {
+  grid-template-columns: 100px 1fr;
+}
+
+.project-card--logo img {
+  width: 80px;
+  max-width: 80px;
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  padding: 0.5rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
 }
 
 .project-card h3 {
