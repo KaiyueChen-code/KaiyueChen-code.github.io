@@ -12,38 +12,42 @@ redirect_from:
 
 # 👋 About Me
 
-Hi👋！ I am **Kaiyue Chen**, an undergraduate student in **Mechatronics and Robotic Systems** at [**Xi'an Jiaotong-Liverpool University**](https://www.xjtlu.edu.cn/en) (**XJTLU**), Suzhou, China. My research focuses on **Vision-Language-Action (VLA)** and embodied manipulation.
+Hi 👋! I am **Kaiyue Chen**, an undergraduate student in **Mechatronics and Robotic Systems** at [**Xi'an Jiaotong-Liverpool University**](https://www.xjtlu.edu.cn/en) (**XJTLU**) in Suzhou, China. My research focuses on **tactile-guided Vision-Language-Action (VLA)**, embodied manipulation.
 
-At **XJTLU**, I work with [**Prof. Yaran Chen**](https://scholar.xjtlu.edu.cn/en/persons/YaranChen/) on a hierarchical **Brain–Cerebellum–Supervisor** framework. The brain outputs LLM **quadruplets** as a VLA-facing interface and is trained with **RFT** (beyond **SFT**) to support long-horizon and interruptible tasks.
+I am currently a research intern at **Sudo Robotics**, advised by [**Prof. Rui Chen**](https://callmeray.github.io/homepage/), where I develop tactile-guided VLA systems for contact-rich bimanual manipulation. My work includes vision-based tactile sensing, a dual-arm **SmolVLA** pipeline, tactile video encoding, and **Flow Reversal Steering** for action correction.
 
-At **Tsinghua University**, I collaborate with [**Prof. Rui Chen**](https://callmeray.github.io/homepage/) on **ViTaMIn-B**, a bimanual visuo-tactile data-collection system with **DuoTact** sensors and **Meta Quest 3** tracking, and on integrating tactile sensing into **VLA (pi0.5)** for multimodal policies. I am also interested in **deep reinforcement learning** and **LLM fine-tuning**.
+Previously, I co-organized the **ManiSkill-ViTac Challenge 2026** at the CVPR 2026 Embodied AI Workshop and developed its tactile-VLA baseline. I am also a co-first author of **3WD-VLA**, a three-way decision framework for safer robotic grasping under ambiguity.
 
 # 🔥 News
+- *2026.03*: &nbsp;🤖 Joined **Sudo Robotics** as a research intern working on tactile-guided VLA for contact-rich manipulation.
 - *2026.06*: &nbsp;🥳 **ManiSkill-ViTac Challenge 2026 was successfully completed.**
+- *2026*: &nbsp;📝 Submitted two papers on **Three-Way Decision VLA** and **real-time robotic grasp detection**.
 - *2025.08*: &nbsp;🏆 **National Finals**, *The 27th China Robot and Artificial Intelligence Competition* — **Baidu Service Robot** track, coached by Prof. Eng Gee Lim (**IEEE Fellow**).
-- *2025.05*: &nbsp;🎖 Received **Xi’an Jiaotong-Liverpool University Excellent Student Cadre**.
 - *2024.09*: &nbsp;📚 Started **BEng Mechatronics and Robotic Systems** at **XJTLU** (expected **2028**).
 
 # 📝 Publications
 
-*Coming soon.* 😁
+<sup>&#42;</sup> Equal contribution.
 
-# 🎖 Honors and Awards
-- *2025.05*, **Excellent Student Cadre**, Xi’an Jiaotong-Liverpool University.
-- *2025.08*, **National Finals** (team member), *The 27th National Finals of China Robot and Artificial Intelligence Competition* — Baidu Service Robot track.
+- Yan Zhu<sup>&#42;</sup>, <strong>Kaiyue Chen<sup>&#42;</sup></strong>, Lingyu Li, Xiaohui Zhu, and Xinheng Wang. **“3WD-VLA: Hierarchical Three-Way Decision for Collaborative Dual-View Robotic Grasping.”** Submitted to the *22nd EAI International Conference on Collaborative Computing: Networking, Applications and Worksharing (EAI CollaborateCom 2026)*.
+
+- Xiaoyu Xia, Chengcheng Hu, Leyi Liu, Junyan He, **Kaiyue Chen**, Yuhao Jin, Yong Yue, and Xiaohui Zhu. **“Real-Time 3-DoF Robotic Grasp Detection via Keypoint Regression.”** Submitted to the *31st International Conference on Automation and Computing (ICAC 2026)*.
 
 # 💬 Research Experience
-- *2026.04 - Present*, **Group Lead**, *Attribute-Aware Brain Module for Hierarchical VLA in Long-Horizon and Interrupted Manipulation Tasks*, Xi’an Jiaotong-Liverpool University (Advisor: [**Prof. Yaran Chen**](https://scholar.xjtlu.edu.cn/en/persons/YaranChen/)).
-  - Built an attribute-aware brain module that outputs LLM quadruplets directly for the VLA interface, and applied **RFT** (beyond **SFT**) within a **Brain-Cerebellum-Supervisor** framework to improve long-horizon execution and interruption recovery.
+- *2026.06 - Present*, **Research Intern**, *Tactile-Guided VLA for Contact-Rich Robotic Manipulation*, Sudo Robotics (Advisor: [**Prof. Rui Chen**](https://callmeray.github.io/homepage/)).
+  - Designed and deployed vision-based tactile sensors on bimanual grippers to mitigate partial observability caused by occlusion and limited visual feedback.
+  - Built a dual-arm tactile-VLA pipeline based on **SmolVLA (0.7B)** and am developing a tactile video encoder for contact geometry, shear deformation, and slip-related dynamics.
+  - Explored **Flow Reversal Steering** to map tactile-guided coarse action corrections into the latent noise space of pretrained VLA policies.
 
-- *2026.03 - Present*, **Research Assistant**, *ViTaMIn-B: A Reliable and Efficient Visuo-Tactile Bimanual Manipulation Interface*, Tsinghua University (Advisor: [**Prof. Rui Chen**](https://callmeray.github.io/homepage/)).
-  - Contributed to a bimanual visuo-tactile data-collection system with **DuoTact** sensors, **Meta Quest 3** pose tracking, and cross-modality synchronization; integrated tactile sensing into **VLA (pi0.5)** for multimodal policy learning.
+- *2026.03 - 2026.06*, **Student Organizer**, *ManiSkill-ViTac Challenge 2026*, CVPR 2026 Embodied AI Workshop.
+  - Built an end-to-end VLA pipeline around UMI-based data collection, covering hardware maintenance, data processing and filtering, model training, and real-robot deployment.
+  - Integrated **AnyTouch** tactile representations into a **π0.5-based VLA** using modality-weighted training to establish the competition baseline.
+  - Designed two long-horizon, contact-rich tasks and co-organized the challenge and accompanying technical report.
 
-- *2026.01 - 2026.03*, **Project Leader**, *Hierarchical Vision-Language-Action (VLA) Architecture for Long-Horizon Robotic Manipulation*, Xi’an Jiaotong-Liverpool University.
-  - Proposed a three-layer **Brain-Cerebellum-Supervisor** framework to decouple high-level planning, low-level control, and safety monitoring for long-horizon robot-arm tasks.
-
-- *2025.03 - 2026.03*, **Research Assistant**, *Task Assignment and Navigation of AGV Clusters*, Xi’an Jiaotong-Liverpool University (Advisor: [**Prof. Xinheng Wang**](https://scholar.google.com/citations?user=TeoBMbgAAAAJ&hl=en&oi=ao)).
-  - Contributed to chassis design (**SolidWorks**), **ROS2** + reinforcement learning integration, and **Gazebo**-based SLAM/navigation experiments.
+- *2026.01 - 2026.05*, **Co-first Author**, *Three-Way Decision VLA*, Xi’an Jiaotong-Liverpool University (Advisor: [**Prof. Xinheng Wang**](https://scholar.google.com/citations?user=TeoBMbgAAAAJ&hl=en&oi=ao)).
+  - Developed a collaborative robotic grasping framework that defers action when direct execution is unsafe or unreliable, including ambiguous commands, target absence, human-hand intrusion, occlusion, and stacked objects.
+  - Built a teleoperation data-collection pipeline for the **SO-100** robot arm and trained **ACT**, **π0.5**, and **SmolVLA** models.
+  - Improved performance by **27.5 percentage points** over a matched SmolVLA baseline without 3WD and demonstrated clearer behavior under ambiguity, occlusion, and object stacking.
 
 <span class='anchor' id='-internships'></span>
 
@@ -51,11 +55,13 @@ At **Tsinghua University**, I collaborate with [**Prof. Rui Chen**](https://call
 
 <div class="project-list">
   <div class="project-card project-card--logo">
-    <img src="/assets/images/internships/sudo-ai.png" alt="Sudo AI logo">
+    <img src="/assets/images/internships/sudo-ai.png" alt="Sudo Robotics logo">
     <div>
-      <h3>Sudo AI</h3>
-      <div class="project-meta">2026.03 - Present · Intern</div>
-      <span class="project-tag">AI</span> <span class="project-tag">VLA</span> <span class="project-tag">Tactile</span>
+      <h3>Sudo Robotics</h3>
+      <div class="project-meta">2026.06 - Present · Research Intern</div>
+      <span class="project-tag">Tactile Sensing</span>
+      <span class="project-tag">VLA</span>
+      <span class="project-tag">Bimanual Manipulation</span>
     </div>
   </div>
 </div>
@@ -147,7 +153,8 @@ At **Tsinghua University**, I collaborate with [**Prof. Rui Chen**](https://call
       <h3>ManiSkill-ViTac Challenge 2026: Real-world Language-guided Bimanual Vision-Tactile Manipulation</h3>
       <div class="project-meta">CVPR 2026 Embodied AI Workshop · Student Organizer</div>
       <span class="project-tag">CVPR 2026</span>
-      <span class="project-tag">TVLA</span>
+      <span class="project-tag">VLA</span>
+      <span class="project-tag">Tactile</span>
       <div class="project-links">
         <a href="https://callmeray.github.io/Mani_ViTac_Challenge_2026_page/">Project Page</a>
       </div>
@@ -157,7 +164,13 @@ At **Tsinghua University**, I collaborate with [**Prof. Rui Chen**](https://call
 
 
 # 💻 Competitions
-- *2025.08*, **Baidu Service Robot Competition** , Suzhou — National Finals of the 27th China Robot and Artificial Intelligence Competition; team coached by [**Prof. Eng Gee Lim**](https://scholar.google.com/citations?user=zHw8eegAAAAJ&hl=en).
+- *2025.08*, **National Finals Team Member, Baidu Service Robot Competition**, *The 27th China Robot and Artificial Intelligence Competition*, Suzhou; coached by [**Prof. Eng Gee Lim**](https://scholar.google.com/citations?user=zHw8eegAAAAJ&hl=en) (**IEEE Fellow**).
+  - Developed a ROS-based autonomous restaurant-service robot with order-driven task coordination, integrating touchscreen interaction, multi-point navigation, food pickup, delivery, and checkout.
 
-# 📖 Educations
-- *2024.09 - 2028.07 (expected)*, **BEng Mechatronics and Robotic Systems**, Xi’an Jiaotong-Liverpool University, Suzhou, China. GPA (Year 1): **3.80/4.0**. Core courses include Linear Algebra, Calculus, **C Programming** and Software Engineering.
+# 📖 Education
+- *2024.09 - 2028.07 (expected)*, **BEng Mechatronics and Robotic Systems**, Xi’an Jiaotong-Liverpool University, Suzhou, China. GPA (Years 1-2): **3.83/4.0**. Core coursework: Linear Algebra (**4.0**), Calculus (**4.0**), and C Programming (**4.0**).
+
+# 🛠 Technical Skills
+- **Robotics:** PyTorch, deep reinforcement learning, ROS1/2, Gazebo, Isaac Sim, ManiSkill.
+- **Programming:** Python, C, C++.
+- **Design and tools:** SolidWorks, Autodesk Fusion 360.
